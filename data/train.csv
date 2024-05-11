@@ -1,13 +1,13 @@
 CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus,Education,SubscriptionPlan,Churn
-1,Male,35,52850,1500,6,Urban,Married,Bachelor's,Gold,Yes
-2,Female,25,29500,800,3,Suburban,Single,High School,Bronze,No
+1,,35,52850,1500,6,Urban,Married,Bachelor's,Gold,Yes
+2,Female,25,29500,800,3,Suburban,,High School,Bronze,No
 3,Male,45,73500,2000,8,Rural,Married,Master's,Silver,No
-4,Female,30,41600,1200,5,Urban,Single,Bachelor's,Bronze,No
+4,Female,30,,1200,5,Urban,Single,Bachelor's,Bronze,No
 5,Male,55,80400,2500,9,Suburban,Married,PhD,Gold,No
 6,Female,20,22500,500,2,Rural,Single,High School,Bronze,No
 7,Male,40,58500,1800,7,Urban,Married,Bachelor's,Silver,Yes
-8,Female,28,35900,1000,4,Suburban,Single,Bachelor's,Bronze,No
-9,Male,50,77200,2200,8,Rural,Married,Master's,Gold,No
+8,,28,35900,1000,4,Suburban,Single,Bachelor's,Bronze,No
+9,Male,50,77200,2200,8,,Married,Master's,Gold,No
 10,Female,38,54000,1600,6,Urban,Married,Bachelor's,Silver,Yes
 11,Male,33,49600,1400,5,Suburban,Single,Bachelor's,Bronze,No
 12,Female,48,72600,2100,8,Rural,Married,Bachelor's,Gold,No
@@ -17,7 +17,7 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 16,Female,32,43900,1300,5,Urban,Single,Bachelor's,Silver,Yes
 17,Male,56,84900,2600,9,Suburban,Married,Bachelor's,Gold,No
 18,Female,24,26400,850,3,Rural,Single,High School,Bronze,No
-19,Male,37,50900,1550,6,Urban,Married,Bachelor's,Silver,No
+19,Male,37,50900,1550,6,,Married,Bachelor's,Silver,No
 20,Female,29,39900,1100,4,Suburban,Single,Bachelor's,Bronze,No
 21,Male,47,71400,2100,8,Rural,Married,Master's,Gold,No
 22,Female,26,32700,950,4,Urban,Single,Bachelor's,Bronze,Yes
@@ -27,7 +27,7 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 26,Female,23,28300,800,3,Suburban,Single,High School,Bronze,No
 27,Male,36,57900,1600,6,Rural,Married,Master's,Silver,Yes
 28,Female,31,42100,1200,5,Urban,Single,Bachelor's,Silver,No
-29,Male,49,76300,2200,8,Suburban,Married,PhD,Gold,No
+29,Male,49,76300,2200,8,Suburban,,PhD,Gold,No
 30,Female,40,68100,2000,7,Rural,Married,Master's,Gold,No
 31,Male,29,36800,1000,4,Urban,Single,Bachelor's,Bronze,Yes
 32,Female,44,71900,2100,8,Suburban,Married,Bachelor's,Gold,No
@@ -130,12 +130,12 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 129,Male,50,75000,2200,8,Rural,Married,Master's,Gold,No
 130,Female,38,55000,1600,6,Urban,Married,Bachelor's,Silver,Yes
 131,Male,33,48000,1400,5,Suburban,Single,Bachelor's,Bronze,No
-132,Female,48,72000,2100,8,Rural,Married,Bachelor's,Gold,No
+132,Female,48,72000,2100,8,,Married,Bachelor's,Gold,No
 133,Male,27,32000,900,4,Urban,Single,Bachelor's,Bronze,No
 134,Female,39,58000,1700,7,Suburban,Married,Master's,Silver,No
 135,Male,42,68000,1900,7,Rural,Married,PhD,Silver,No
 136,Female,32,45000,1300,5,Urban,Single,Bachelor's,Silver,Yes
-137,Male,56,82000,2600,9,Suburban,Married,Bachelor's,Gold,No
+137,,56,82000,2600,9,Suburban,Married,Bachelor's,Gold,No
 138,Female,24,28000,850,3,Rural,Single,High School,Bronze,No
 139,Male,37,52000,1550,6,Urban,Married,Bachelor's,Silver,No
 140,Female,29,38000,1100,4,Suburban,Single,Bachelor's,Bronze,No
@@ -145,7 +145,7 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 144,Female,34,48000,1400,5,Rural,Single,Bachelor's,Bronze,No
 145,Male,54,78000,2400,9,Urban,Married,PhD,Gold,No
 146,Female,23,27000,800,3,Suburban,Single,High School,Bronze,No
-147,Male,36,55000,1600,6,Rural,Married,Master's,Silver,Yes
+147,,36,55000,1600,6,Rural,Married,Master's,Silver,Yes
 148,Female,31,40000,1200,5,Urban,Single,Bachelor's,Bronze,No
 149,Male,49,75000,2200,8,Suburban,Married,PhD,Gold,No
 150,Female,40,68000,2000,7,Rural,Married,Master's,Gold,No
@@ -192,7 +192,7 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 191,Male,54,79000,2400,9,Suburban,Married,Bachelor's,Gold,No
 192,Female,21,27000,750,3,Rural,Single,High School,Bronze,No
 193,Male,35,51000,1550,6,Urban,Married,Bachelor's,Silver,Yes
-194,Female,38,60000,1700,7,Suburban,Married,Bachelor's,Silver,No
+194,Female,38,60000,1700,7,Suburban,,Bachelor's,Silver,No
 195,Male,56,85500,2600,9,Rural,Married,PhD,Gold,No
 196,Female,23,29000,850,3,Urban,Single,Bachelor's,Bronze,Yes
 197,Male,47,72000,2100,8,Suburban,Married,Bachelor's,Silver,No
@@ -235,7 +235,7 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 234,Female,45,72000,2100,8,Rural,Married,Master's,Gold,No
 235,Male,24,29000,850,3,Urban,Single,Bachelor's,Bronze,Yes
 236,Female,37,57000,1650,6,Suburban,Married,Bachelor's,Silver,No
-237,Male,50,78000,2300,8,Rural,Married,PhD,Gold,No
+237,Male,50,78000,2300,,Rural,Married,PhD,Gold,No
 238,Female,26,32000,900,4,Urban,Single,Bachelor's,Bronze,Yes
 239,Male,41,64000,1900,7,Suburban,Married,Bachelor's,Silver,No
 240,Female,35,50000,1500,6,Rural,Single,Bachelor's,Bronze,Yes
@@ -250,7 +250,7 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 249,Male,56,85000,2600,9,Rural,Married,PhD,Gold,No
 250,Female,23,29000,850,3,Urban,Single,Bachelor's,Bronze,Yes
 251,Male,47,72000,2100,8,Suburban,Married,Bachelor's,Silver,No
-252,Female,31,42000,1300,5,Rural,Single,Master's,Bronze,No
+252,Female,31,,1300,5,Rural,Single,Master's,Bronze,No
 253,Male,33,51000,1400,5,Urban,Married,Bachelor's,Bronze,Yes
 254,Female,44,68000,2000,7,Suburban,Married,Master's,Silver,No
 255,Male,27,33000,950,4,Rural,Single,Bachelor's,Bronze,No
@@ -259,9 +259,9 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 258,Female,24,31000,850,3,Rural,Single,Bachelor's,Bronze,Yes
 259,Male,36,54000,1600,6,Urban,Married,Bachelor's,Silver,No
 260,Female,46,73000,2200,8,Suburban,Married,Bachelor's,Gold,No
-261,Male,20,26000,750,3,Rural,Single,High School,Bronze,Yes
+261,,20,26000,750,3,Rural,Single,High School,Bronze,Yes
 262,Female,32,44000,1350,5,Urban,Single,Bachelor's,Silver,No
-263,Male,48,75000,2200,8,Suburban,Married,Master's,Gold,No
+263,Male,48,75000,2200,8,Suburban,,Master's,Gold,No
 264,Female,25,31000,900,4,Rural,Single,Bachelor's,Bronze,Yes
 265,Male,37,58000,1700,7,Urban,Married,Master's,Silver,No
 266,Female,27,35000,1000,4,Suburban,Single,Bachelor's,Bronze,Yes
@@ -270,7 +270,7 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 269,Male,40,62000,1800,7,Suburban,Married,Bachelor's,Silver,No
 270,Female,36,50000,1500,6,Rural,Single,Bachelor's,Silver,No
 271,Male,54,83000,2500,9,Urban,Married,PhD,Gold,No
-272,Female,19,24000,700,2,Suburban,Single,High School,Bronze,Yes
+272,Female,19,24000,700,2,,Single,High School,Bronze,Yes
 273,Male,44,69000,2100,8,Suburban,Married,Bachelor's,Silver,No
 274,Female,26,33000,950,4,Rural,Single,Bachelor's,Silver,Yes
 275,Male,39,60000,1750,7,Urban,Married,Bachelor's,Silver,No
@@ -278,7 +278,7 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 277,Male,52,84000,2600,9,Rural,Married,PhD,Gold,No
 278,Female,23,28000,800,3,Urban,Single,High School,Bronze,No
 279,Male,42,68000,2000,7,Suburban,Married,Master's,Silver,No
-280,Female,29,36000,1050,4,Urban,Single,Bachelor's,Bronze,No
+280,Female,29,36000,1050,4,Urban,,Bachelor's,Bronze,No
 281,Male,48,77000,2300,8,Urban,Married,Master's,Gold,No
 282,Female,35,49000,1450,5,Suburban,Single,Bachelor's,Silver,No
 283,Male,54,85000,2600,9,Urban,Married,PhD,Gold,No
@@ -346,15 +346,15 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 345,Male,50,78000,2300,8,Rural,Married,PhD,Gold,No
 346,Female,26,32000,900,4,Urban,Single,Bachelor's,Bronze,Yes
 347,Male,41,64000,1900,7,Suburban,Married,Bachelor's,Silver,No
-348,Female,35,50000,1500,6,Rural,Single,Bachelor's,Silver,Yes
+348,Female,35,50000,1500,,Rural,Single,Bachelor's,Silver,Yes
 349,Male,51,82000,2500,9,Urban,Married,PhD,Gold,No
 350,Female,22,28000,800,3,Suburban,Single,High School,Bronze,Yes
 351,Male,43,68000,2000,7,Rural,Married,Master's,Silver,No
-352,Female,29,36000,1050,4,Urban,Single,Bachelor's,Bronze,No
+352,Female,29,36000,1050,,Urban,Single,Bachelor's,Bronze,No
 353,Male,48,77000,2300,8,Urban,Married,Master's,Gold,No
-354,Female,35,49000,1450,5,Suburban,Single,Bachelor's,Silver,No
+354,Female,35,,1450,5,Suburban,Single,Bachelor's,Silver,No
 355,Male,54,85000,2600,9,Urban,Married,PhD,Gold,No
-356,Female,20,26000,750,3,Rural,Single,High School,Bronze,Yes
+356,Female,20,26000,750,,Rural,Single,High School,Bronze,Yes
 357,Male,43,71000,2100,8,Suburban,Married,Bachelor's,Gold,No
 358,Female,25,31000,900,4,Rural,Single,Bachelor's,Bronze,Yes
 359,Male,33,51000,1500,6,Urban,Married,Bachelor's,Silver,Yes
