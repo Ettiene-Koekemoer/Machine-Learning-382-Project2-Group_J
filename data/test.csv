@@ -1,0 +1,101 @@
+CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus,Education,SubscriptionPlan
+1,Female,35,55000,1700,6,Urban,Single,Bachelor's,Silver
+2,Male,40,60000,1800,7,Suburban,Married,Bachelor's,Silver
+3,Female,28,40000,1200,5,Urban,Single,High School,Bronze
+4,Male,45,70000,2100,8,Rural,Married,Master's,Gold
+5,Female,32,48000,1400,5,Suburban,Single,Bachelor's,Bronze
+6,Male,50,75000,2200,8,Rural,Married,PhD,Gold
+7,Female,27,35000,1000,4,Urban,Single,Bachelor's,Bronze
+8,Male,38,58000,1700,7,Suburban,Married,Master's,Silver
+9,Female,42,68000,2000,7,Rural,Married,Master's,Silver
+10,Male,30,42000,1250,5,Urban,Single,Bachelor's,Bronze
+11,Female,35,55000,1700,6,Urban,Single,Bachelor's,Silver
+12,Male,40,60000,1800,7,Suburban,Married,Bachelor's,Silver
+13,Female,28,40000,1200,5,Urban,Single,High School,Bronze
+14,Male,45,70000,2100,8,Rural,Married,Master's,Gold
+15,Female,32,48000,1400,5,Suburban,Single,Bachelor's,Bronze
+16,Male,50,75000,2200,8,Rural,Married,PhD,Gold
+17,Female,27,35000,1000,4,Urban,Single,Bachelor's,Bronze
+18,Male,38,58000,1700,7,Suburban,Married,Master's,Silver
+19,Female,42,68000,2000,7,Rural,Married,Master's,Silver
+20,Male,30,42000,1250,5,Urban,Single,Bachelor's,Bronze
+21,Female,35,55000,1700,6,Urban,Single,Bachelor's,Silver
+22,Male,40,60000,1800,7,Suburban,Married,Bachelor's,Silver
+23,Female,28,40000,1200,5,Urban,Single,High School,Bronze
+24,Male,45,70000,2100,8,Rural,Married,Master's,Gold
+25,Female,32,48000,1400,5,Suburban,Single,Bachelor's,Bronze
+26,Male,50,75000,2200,8,Rural,Married,PhD,Gold
+27,Female,27,35000,1000,4,Urban,Single,Bachelor's,Bronze
+28,Male,38,58000,1700,7,Suburban,Married,Master's,Silver
+29,Female,42,68000,2000,7,Rural,Married,Master's,Silver
+30,Male,30,42000,1250,5,Urban,Single,Bachelor's,Bronze
+31,Female,35,55000,1700,6,Urban,Single,Bachelor's,Silver
+32,Male,40,60000,1800,7,Suburban,Married,Bachelor's,Silver
+33,Female,28,40000,1200,5,Urban,Single,High School,Bronze
+34,Male,45,70000,2100,8,Rural,Married,Master's,Gold
+35,Female,32,48000,1400,5,Suburban,Single,Bachelor's,Bronze
+36,Male,50,75000,2200,8,Rural,Married,PhD,Gold
+37,Female,27,35000,1000,4,Urban,Single,Bachelor's,Bronze
+38,Male,38,58000,1700,7,Suburban,Married,Master's,Silver
+39,Female,42,68000,2000,7,Rural,Married,Master's,Silver
+40,Male,30,42000,1250,5,Urban,Single,Bachelor's,Bronze
+41,Female,35,55000,1700,6,Urban,Single,Bachelor's,Silver
+42,Male,40,60000,1800,7,Suburban,Married,Bachelor's,Silver
+43,Female,28,40000,1200,5,Urban,Single,High School,Bronze
+44,Male,45,70000,2100,8,Rural,Married,Master's,Gold
+45,Female,32,48000,1400,5,Suburban,Single,Bachelor's,Bronze
+46,Male,50,75000,2200,8,Rural,Married,PhD,Gold
+47,Female,27,35000,1000,4,Urban,Single,Bachelor's,Bronze
+48,Male,38,58000,1700,7,Suburban,Married,Master's,Silver
+49,Female,42,68000,2000,7,Rural,Married,Master's,Silver
+50,Male,30,42000,1250,5,Urban,Single,Bachelor's,Bronze
+51,Female,35,55000,1700,6,Urban,Single,Bachelor's,Silver
+52,Male,40,60000,1800,7,Suburban,Married,Bachelor's,Silver
+53,Female,28,40000,1200,5,Urban,Single,High School,Bronze
+54,Male,45,70000,2100,8,Rural,Married,Master's,Gold
+55,Female,32,48000,1400,5,Suburban,Single,Bachelor's,Bronze
+56,Male,50,75000,2200,8,Rural,Married,PhD,Gold
+57,Female,27,35000,1000,4,Urban,Single,Bachelor's,Bronze
+58,Male,38,58000,1700,7,Suburban,Married,Master's,Silver
+59,Female,42,68000,2000,7,Rural,Married,Master's,Silver
+60,Male,30,42000,1250,5,Urban,Single,Bachelor's,Bronze
+61,Female,35,55000,1700,6,Urban,Single,Bachelor's,Silver
+62,Male,40,60000,1800,7,Suburban,Married,Bachelor's,Silver
+63,Female,28,40000,1200,5,Urban,Single,High School,Bronze
+64,Male,45,70000,2100,8,Rural,Married,Master's,Gold
+65,Female,32,48000,1400,5,Suburban,Single,Bachelor's,Bronze
+66,Male,50,75000,2200,8,Rural,Married,PhD,Gold
+67,Female,27,35000,1000,4,Urban,Single,Bachelor's,Bronze
+68,Male,38,58000,1700,7,Suburban,Married,Master's,Silver
+69,Female,42,68000,2000,7,Rural,Married,Master's,Silver
+70,Male,30,42000,1250,5,Urban,Single,Bachelor's,Bronze
+71,Female,35,55000,1700,6,Urban,Single,Bachelor's,Silver
+72,Male,40,60000,1800,7,Suburban,Married,Bachelor's,Silver
+73,Female,28,40000,1200,5,Urban,Single,High School,Bronze
+74,Male,45,70000,2100,8,Rural,Married,Master's,Gold
+75,Female,32,48000,1400,5,Suburban,Single,Bachelor's,Bronze
+76,Male,50,75000,2200,8,Rural,Married,PhD,Gold
+77,Female,27,35000,1000,4,Urban,Single,Bachelor's,Bronze
+78,Male,38,58000,1700,7,Suburban,Married,Master's,Silver
+79,Female,42,68000,2000,7,Rural,Married,Master's,Silver
+80,Male,30,42000,1250,5,Urban,Single,Bachelor's,Bronze
+81,Female,35,55000,1700,6,Urban,Single,Bachelor's,Silver
+82,Male,40,60000,1800,7,Suburban,Married,Bachelor's,Silver
+83,Female,28,40000,1200,5,Urban,Single,High School,Bronze
+84,Male,45,70000,2100,8,Rural,Married,Master's,Gold
+85,Female,32,48000,1400,5,Suburban,Single,Bachelor's,Bronze
+86,Male,50,75000,2200,8,Rural,Married,PhD,Gold
+87,Female,27,35000,1000,4,Urban,Single,Bachelor's,Bronze
+88,Male,38,58000,1700,7,Suburban,Married,Master's,Silver
+89,Female,42,68000,2000,7,Rural,Married,Master's,Silver
+90,Male,30,42000,1250,5,Urban,Single,Bachelor's,Bronze
+91,Female,35,55000,1700,6,Urban,Single,Bachelor's,Silver
+92,Male,40,60000,1800,7,Suburban,Married,Bachelor's,Silver
+93,Female,28,40000,1200,5,Urban,Single,High School,Bronze
+94,Male,45,70000,2100,8,Rural,Married,Master's,Gold
+95,Female,32,48000,1400,5,Suburban,Single,Bachelor's,Bronze
+96,Male,50,75000,2200,8,Rural,Married,PhD,Gold
+97,Female,27,35000,1000,4,Urban,Single,Bachelor's,Bronze
+98,Male,38,58000,1700,7,Suburban,Married,Master's,Silver
+99,Female,42,68000,2000,7,Rural,Married,Master's,Silver
+100,Male,30,42000,1250,5,Urban,Single,Bachelor's,Bronze
