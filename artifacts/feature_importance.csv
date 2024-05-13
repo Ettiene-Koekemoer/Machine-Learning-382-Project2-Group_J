@@ -1,0 +1,14 @@
+,Feature,Importance
+6,total_purchase,0.4912548913807932
+1,income,0.21371885684368963
+9,location,0.07627153720824349
+0,gender,0.056215133935341194
+3,income_bin_Medium Income,0.0485247441070211
+7,num_of_purchases,0.03454231433506045
+8,average_purchase,0.028822645402956284
+11,education,0.027292692807949017
+12,subscription_plan,0.016448721111933542
+10,marital_status,0.006908462867012091
+2,income_bin_Low Income,0.0
+4,income_bin_High Income,0.0
+5,income_bin_Very High Income,0.0
