@@ -6,6 +6,10 @@ import joblib
 
 # Load the model
 model = joblib.load('./artifacts/model_2.pkl')
+df = pd.read_csv('./artifacts/feature_importance.csv', index_col=0)
+
+features = df.index.tolist()
+importance = df.iloc[:, 0].tolist()
 
 #Initialise the Dash App
 app = dash.Dash(__name__)
@@ -17,6 +21,7 @@ app.layout = html.Div(
         html.H1("Churn Eligibility Predictor"),
         html.Label("CustomerID:"),
         dcc.Input(id='CustomerID', type='number', value=0),
+        html.Div(),
         html.Label("Gender:"),
         dcc.Dropdown(
             ['Male','Female'],
@@ -56,7 +61,8 @@ app.layout = html.Div(
             id='SubscriptionPlan'
         ),
         html.Button('Check Eligibility', id='submit-val', n_clicks=0),
-        html.Div(id='output')
+        html.Div(id='output'),
+        dcc.Graph(id='graph')
     ]
 )
 # Define Callback Function for Predictions
@@ -109,6 +115,30 @@ def update_output(n_clicks, CustomerID, Gender, Age, Income, TotalPurchase, NumO
             return html.Div('Churn predicted', style={'color': 'green'})
         else:
             return html.Div('No churn predicted', style={'color': 'red'})
+        
+# Define callback to update the graph
+@app.callback(
+    Output('graph', 'figure'),
+    [Input('graph', 'id')]
+)
+def update_graph(_):
+    # Create horizontal bar graph
+    fig = {
+        'data': [
+            {
+                'x': importance,
+                'y': features,
+                'type': 'bar',
+                'orientation': 'h'
+            }
+        ],
+        'layout': {
+            'title': 'Feature Importance',
+            'xaxis': {'title': 'Importance'},
+            'yaxis': {'title': 'Feature'},
+        }
+    }
+    return fig
 #Run the App
 if __name__ == '__main__':
     app.run_server(debug=True)
