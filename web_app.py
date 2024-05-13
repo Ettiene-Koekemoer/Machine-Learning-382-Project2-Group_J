@@ -29,7 +29,7 @@ app.layout = html.Div(
             id='Gender'
         ),
         html.Label("Age:"),
-        dcc.Slider(0, 100, 1, marks={i: f'${i}' for i in range(0, 101, 10)}, tooltip={"always_visible": True}, value=20, id='Age'),
+        dcc.Slider(0, 100, 1, marks={i: f'{i}' for i in range(0, 101, 10)}, tooltip={"always_visible": True}, value=20, id='Age'),
         html.Label("Income:"),
         dcc.Slider(0, 100000, 1000, marks={i: f'${i}' for i in range(0, 100001, 10000)}, tooltip={"always_visible": True}, value=10000, id='Income'),
         html.Label("TotalPurchase:"),
