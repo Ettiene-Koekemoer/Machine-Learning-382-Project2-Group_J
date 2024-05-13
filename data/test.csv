@@ -95,7 +95,7 @@ CustomerID,Gender,Age,Income,TotalPurchase,NumOfPurchases,Location,MaritalStatus
 94,Male,45,70000,2100,8,Rural,Married,Master's,Gold
 95,Female,32,48000,1400,5,Suburban,Single,Bachelor's,Bronze
 96,Male,50,75000,2200,8,Rural,Married,PhD,Gold
-97,Female,27,35000,1000,4,Urban,Single,Bachelor's,Bronze
+97,Female,27,28000,1000,4,Urban,Single,Bachelor's,Bronze
 98,Male,38,58000,1700,7,Suburban,Married,Master's,Silver
 99,Female,42,68000,2000,7,Rural,Married,Master's,Silver
 100,Male,30,42000,1250,5,Urban,Single,Bachelor's,Bronze
